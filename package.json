@@ -1,0 +1,18 @@
+{
+  "name": "photography-portfolio",
+  "version": "1.0.0",
+  "description": "A Photography Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch & npx serve .",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "serve": "npx serve ."
+  },
+  "keywords": ["photography", "portfolio", "tailwind", "website"],
+  "author": "João Franco",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "serve": "^14.2.1"
+  }
+}
